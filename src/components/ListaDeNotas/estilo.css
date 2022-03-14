@@ -1,8 +1,11 @@
 .lista-notas {
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
     
 }
 .lista-notas_item {
     list-style: none;
+    max-width: 250px;
+    height: auto;
 }
